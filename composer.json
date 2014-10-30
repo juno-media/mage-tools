@@ -1,0 +1,23 @@
+{
+    "name": "adampaterson/mage-tools",
+    "authors": [
+        {
+            "name": "Adam Paterson",
+            "email": "hello@adampaterson.co.uk"
+        }
+    ],
+	    "require": {
+	        "aoepeople/aoe_templatehints": "*",
+			"fbrnc/Aoe_Profiler": "*",
+	        "magento-hackathon/magento-composer-installer": "*"
+	    },
+	    "repositories": [
+	        {
+	            "type": "composer",
+	            "url": "http://packages.firegento.com"
+	        }
+	    ],
+	    "extra":{
+	        "magento-root-dir": "./"
+	    }
+}
